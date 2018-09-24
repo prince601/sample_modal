@@ -37,7 +37,7 @@ body{
     .modal-content{
         background: lighten(#999, 10);
         margin: 20% auto;
-        padding: 20px;
+        // padding: 20px;
         width: 70%;
         box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2) 0 7px 20px 0 rgba(0,0,0,0.17);
         animation-name: modalOpen;
@@ -45,7 +45,6 @@ body{
         @keyframes modalOpen{
             from{opacity: 0}
             to{opacity: 1}
-
         }
         .closeBtn{
             color:$text-color;
@@ -57,9 +56,23 @@ body{
             text-decoration: none;
             cursor: pointer;
         }
-
-        
-
+        #modal-header{
+            background: darken(coral, 20);
+            padding: 1rem;
+            color: $text-color;
+        }
+        #modal-body{
+            padding: 10px 20px;   
+        }
+        h2, h3{
+            margin: 0;
+        }
+        #modal-footer{
+            background: darken(coral,30);
+            color: $text-color;
+            padding: 10px;
+            text-align: center;
+        }
     }
     
 }
