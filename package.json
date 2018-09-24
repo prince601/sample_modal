@@ -1,0 +1,27 @@
+{
+  "name": "sample_modal",
+  "version": "1.0.0",
+  "description": "sample modal with html,css and js",
+  "main": "dist/index.html",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/princekab/prince601"
+  },
+  "keywords": [
+    "modal",
+    "by",
+    "pure",
+    "html",
+    "css",
+    "and",
+    "js"
+  ],
+  "author": "prince kab",
+  "license": "MIT"
+}
